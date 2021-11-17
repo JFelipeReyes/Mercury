@@ -1,0 +1,110 @@
+
+<html>
+<head>
+</head>
+
+<style>
+body {background-color: white}
+h1  {
+	color:gray;
+	text-align: center;
+		}
+
+button {
+	color: gray;
+	background:lightgrey;
+	border: 2px solid #000;
+	border-radius: 8px;
+	position: center;
+}
+span {
+	color: gray;
+	border: 5px solid #999;
+	border-radius: 8px;
+	font-size: 140%;
+	font-weight: bold;
+	align: right;
+	text-align: center;
+}
+
+</style>
+
+<body>
+
+<img align="right" style="height: 90px"src="/images/logo.png">
+<br><br>
+<h1> MERCURY CFJ CONTROL </h1>
+<br>
+
+<span style="display:inline-block;">
+	<br>
+	<button style="height: 75px; width: 75px" onclick="forward()"><img style="height: 65px"src="/images/forward.png"></button>
+	<br><br><br><br>
+	<img hspace="10" style="padding-left: 5px">
+	<button style="height: 75px; width: 75px" onclick="left()"><img style="height: 65px"src="/images/left.png"></button>
+	<img hspace="20" style="padding-left: 10px">
+	<button style="height: 75px; width: 75px" onclick="stop()"><img style="height: 63px"src="/images/stop.png"></button>
+	<img hspace="20" style="padding-left: 10px">
+	<button style="height: 75px; width: 75px" onclick="right()"><img style="height: 65px"src="/images/right.png"></button>
+	<img hspace="10" style="padding-left: 5px">
+	<br><br><br><br>
+	<button style="height: 75px; width: 75px" onclick="reverse()"><img style="height: 65px"src="/images/reverse.png"></button>
+	<br><br>
+</span> <iframe src="http://192.168.43.169:8081" frameborder="15" width="640" height="480" align="right" scrolling="no"></iframe>
+<br><br>
+<script>
+var xmlhttp;
+xmlhttp=new XMLHttpRequest();
+
+function lighton()
+    {
+        xmlhttp.open("GET","/logic/pruebas.py",true);
+        xmlhttp.send();
+    }
+function lightoff()
+    {
+        xmlhttp.open("GET","cgi-bin/lightoff.cgi",true);
+        xmlhttp.send();
+    }
+function forward(){
+	xmlhttp.open("GET","cgi-bin/forward.cgi",true);
+	xmlhttp.send();
+}
+function stop(){
+	xmlhttp.open("GET","cgi-bin/stop.cgi",true);
+	xmlhttp.send();
+}
+function left(){
+	xmlhttp.open("GET","cgi-bin/left.cgi",true);
+	xmlhttp.send();
+}
+function right(){
+	xmlhttp.open("GET","cgi-bin/right.cgi",true);
+	xmlhttp.send();
+}
+function reverse(){
+	xmlhttp.open("GET","cgi-bin/reverse.cgi",true);
+	xmlhttp.send();
+}
+function lowspeed(){
+	xmlhttp.open("GET","cgi-bin/lowspeed.cgi",true);
+	xmlhttp.send();
+}
+function regularspeed(){
+	xmlhttp.open("GET","cgi-bin/regularspeed.cgi",true);
+	xmlhttp.send();
+}
+function highspeed(){
+	xmlhttp.open("GET","cgi-bin/highspeed.cgi",true);
+	xmlhttp.send();
+}
+function nospeed(){
+	xmlhttp.open("GET","cgi-bin/nospeed.cgi",true);
+	xmlhttp.send();
+}
+
+</script>
+
+</body>
+</html>
+
