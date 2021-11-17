@@ -3,7 +3,7 @@ In this repository you can find all the relevant information for the development
 
 ## What's the use?
 
-La idea del desarrollo del proyecto es poder explorar lugares estrechos no menores a 17 cm de alto y 15 de ancho ya que el dispositivo cuenta con una cámara montada en el chasis, con la cual se puede monitorear la ubicación del dispositivo y posibles obstáculos con los que pueda encontrarse.
+The idea behind the development of the project is to be able to explore narrow places no less than 17 cm high and 15 cm wide, since the device has a camera mounted on the chassis, which can be used to monitor the location of the device and possible obstacles it may encounter.
 
 ## How to use?
 
@@ -75,8 +75,17 @@ The power of the device is limited because in the transmission of the camera the
 
 ## Pictures
 
+* Schematic:
 ![Schematic circuit](https://github.com/JFelipeReyes/Mercury-CFJ/blob/master/Images/Esquematico.jpeg)
 
+* Base:
 ![Base](https://github.com/JFelipeReyes/Mercury-CFJ/blob/master/Images/Soporte.jpeg)
 
+* Device:
 ![Device](https://github.com/JFelipeReyes/Mercury-CFJ/blob/master/Images/Device.jpeg)
+
+## Developers
+
+* María Camila López López
+* Juan Felipe Reyes Rubio
+* Juan José Hernández Bravo
