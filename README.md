@@ -59,7 +59,7 @@ The power of the device is limited because in the transmission of the camera the
 
 * [Raspberry Pi 3 B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)
 
-![Raspberry](https://drive.google.com/file/d/1gVKzBeXCSyi_ek393VcTc2W8wL3B5INi/view?usp=sharing)
+![Raspberry](https://github.com/JFelipeReyes/Mercury-CFJ/blob/master/Images/4a84795d-bc61-4c77-9f48-4d217c439a23_3B%2B%20TOP%20DOWN%20REFRESH_.jpg)
 
 * [GPIO](https://www.hwlibre.com/gpio-raspberry-pi/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+hwlibreweb+%28Hardware+libre%29).
 
