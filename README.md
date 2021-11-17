@@ -75,8 +75,8 @@ The power of the device is limited because in the transmission of the camera the
 
 ## Pictures
 
-![Schematic circuit](https://drive.google.com/file/d/1NR4Q1yWz5cuMRSePJfHo9OOCZE6il7eP/view?usp=sharing)
+![Schematic circuit](https://github.com/JFelipeReyes/Mercury-CFJ/blob/master/Images/Esquematico.jpeg)
 
-![Base](https://drive.google.com/file/d/1kuk_I2Yt7S79fILBP6Fvz3Gv0oN-eh7-/view?usp=sharing)
+![Base](https://github.com/JFelipeReyes/Mercury-CFJ/blob/master/Images/Soporte.jpeg)
 
-![Device](https://drive.google.com/file/d/17nJ6Eb1BlL1lPJuCXlBtUIxdDlr9i3Fp/view?usp=sharing)
+![Device](https://github.com/JFelipeReyes/Mercury-CFJ/blob/master/Images/Device.jpeg)
