@@ -10,8 +10,12 @@ La idea del desarrollo del proyecto es poder explorar lugares estrechos no menor
 Steps to use the device :
 1) Connect the Raspberry Pi to the power supply (Powerbank).
 2) Connect the L298n diver to the Lipo battery.
-3) Using the Linux terminal access the Raspberry Pi using SSH :
-pi@ASSIGNED_IP.
+3) Using the Linux terminal access the Raspberry Pi using SSH:
+
+```
+$ ssh pi@ASSIGNED_IP.
+```
+
 4) Execute the Server.py file in the path it is stored:
 
 ```
