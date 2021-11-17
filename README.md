@@ -14,15 +14,15 @@ Steps to use the device :
 pi@ASSIGNED_IP.
 4) Execute the Server.py file in the path it is stored:
 
-<!--sec data-title="Hoe to use: OS X and Linux" data-id="python3 Server.py" data-collapse=true ces-->
+```
   $ python3 Server.py
-<!--endsec-->
+```
 
 5) In the Linux terminal of the device that will act as a client, run the file Client.py:
 
-<!--sec data-title="Hoe to use: OS X and Linux" data-id="python3 Cliente.py" data-collapse=true ces-->
+```
   $ python3 Cliente.py
-<!--endsec-->
+```
 
 It is time to control the device:
 The Client.py file runs a keylogger that detects the characters entered and sends a message that the Server.py file decodes and executes as a function.
